@@ -1,0 +1,50 @@
+name: media_player_app
+description: "Um aplicativo de filmes e séries com layout moderno estilo Stremio"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI e ícones
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  
+  # Gerenciamento de estado
+  provider: ^6.1.1
+  
+  # Player de vídeo
+  video_player: ^2.8.2
+  chewie: ^1.7.4
+  media_kit: ^1.1.10+1
+  media_kit_video: ^1.2.4
+  media_kit_libs_android_video: ^1.2.6
+  
+  # Permissões e arquivos
+  permission_handler: ^11.3.0
+  file_picker: ^6.1.1
+  
+  # API de filmes (TMDB)
+  http: ^1.2.0
+  
+  # Cache de imagens
+  cached_network_image: ^3.3.1
+  
+  # Utilitários
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
